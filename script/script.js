@@ -104,6 +104,7 @@ Equal.addEventListener("click", () => {
 });
 
 Del.addEventListener("click", () => {
+    Calculation.textContent = ""
     if (displayValue.length > 0) {
         displayValue = displayValue.slice(0, -1);
         Num_Display.textContent = displayValue;
